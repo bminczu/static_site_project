@@ -1,0 +1,20 @@
+.header{
+
+}
+
+.banner{
+   position: relative;
+
+}
+
+.banner img{
+    max-width: 100%
+}
+
+.banner .welcome{
+    background-color: rgba(75,100,115);
+    position: absolute;
+    left: 0px;
+    top: 30%
+    
+}
