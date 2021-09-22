@@ -1,7 +1,20 @@
-.header{
-
+header{
+    background-color: rgba(75,100,115, 0.8);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
-
+header h1{
+color: white;
+border: 8px solid;
+padding: 6px 17px;
+display: inline-block;
+border-radius: 10px;
+}
 .banner{
    position: relative;
 
@@ -12,9 +25,35 @@
 }
 
 .banner .welcome{
-    background-color: rgba(75,100,115);
+    background-color: rgba(75,100,115, 0.2);
+    color: white;
+    
+    padding: 30px;
     position: absolute;
     left: 0px;
-    top: 30%
+    top: 8%;
     
+    
+}
+.banner h2{
+    font-size: 60px;
+}
+
+.banner span{
+    font-size: 1.3em;
+}
+
+nav{
+    background-color: rgba(75,100,115, 0.2);
+    padding: 20px;
+
+}
+nav ul{
+    white-space: nowrap;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24;
+
 }
