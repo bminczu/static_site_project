@@ -124,6 +124,7 @@ article p{
 
  .join h2{
      font-size: 36px;
+     color: grey;
 
  }
 
@@ -153,4 +154,51 @@ article p{
  .images li:hover{
      position: relative;
     top: -4px
+ }
+
+ form input:focus{
+     border: 4px dashed #4b4b4b
+ }
+
+ form input:valid{
+     border: 4px solid rgb(84, 226, 84);
+ }
+
+ article p::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+ }
+
+ section.join p::first-letter{
+     font-size: 1.5em;
+ }
+
+ /* /responsive style// */
+
+ @media screen and (max-width: 1400px){
+    
+    .banner .welcome h2{
+        font-size: 60px;
+    }
+    nav li{
+        font-size: 18px;
+    }
+ }
+
+
+ @media screen and (max-width: 960px){
+    
+    .banner .welcome h2{
+        font-size: 40px;
+    }
+    
+ }
+
+
+ @media screen and (max-width: 70px){
+    
+    .banner .welcome {
+        position: relative;
+    }
+    
  }
