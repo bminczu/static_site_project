@@ -72,7 +72,7 @@ nav li{
 
 nav li a{
     text-decoration: none;
-    color: #4b4b4b
+    color: white
 }
 
 nav li a.join{
@@ -104,6 +104,11 @@ article p{
      margin: 0px;
      white-space: nowrap;
  }
+
+ /* ul.images{
+     border: 0px;
+     margin: 0px;
+ } */
 
  .images li{
      display: inline-block;
