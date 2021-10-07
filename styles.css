@@ -250,3 +250,11 @@ article p{
         top: 0;
     }
  }
+/* 
+ ////ORDER PAGE */
+
+ #summary-container{
+     width: 300px;
+     border-color: black;
+     border-style: solid;
+ }
