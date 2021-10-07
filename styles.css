@@ -103,11 +103,13 @@ article p{
      text-align: center;
      margin: 0px 0;;
      white-space: nowrap;
+    
  }
+
 
  iframe{
      width: 100%;
-  
+    height:35em
      /* height: 100%; */
  }
  /* ul.images{
@@ -163,6 +165,7 @@ article p{
 
  .images li:hover{
      position: relative;
+     box-shadow: 0 0 11px rgba(227,232,20);
     top: -4px
  }
 
